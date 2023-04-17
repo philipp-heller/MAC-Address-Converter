@@ -1,2 +1,2 @@
 # MAC-Address-Converter
-GUI für das umwandeln von MAC Addressen bei M3Connect
+GUI for converting MAC addresses into different formats
