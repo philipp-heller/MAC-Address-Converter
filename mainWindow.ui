@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>mainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="inputMACTT">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Input MAC Address</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="previewMACTT">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Preview MAC Address</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="previewMAC">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>256</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Tick a case to preview MAC Address</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="case1Button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Case 1</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="case2Button">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Case 2</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="case3Button">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Case 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="convertedMACTT">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output MAC Address</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="convertedMAC">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>256</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Click convert to get the desired MAC Address</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="copyButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>310</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy Output</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>290</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="confirmedCopy">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>315</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="previousMACTT">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Previous MAC Addresses</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="convertButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Convert</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputMAC">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>256</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="previousMAC">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>191</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Will list all prior MAC Addresses while the program was running&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearHistoryButton">
+    <property name="geometry">
+     <rect>
+      <x>349</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear History</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="copyHistoryButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>290</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy History
+Item</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>552</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
