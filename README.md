@@ -7,3 +7,6 @@ GUI for converting MAC addresses into different formats
 Edit the [CMakeLists](./CMakeLists.txt) CMAKE_PREFIX_PATH in line 8 to the path of your Qt compiler
 
 C++ 23
+
+# Execute
+Simply download the zip [here](https://github.com/philipp-heller/MAC-Address-Converter/releases/tag/Release) with the compiled executable, unzip it into a folder and run the exe
